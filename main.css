@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(150deg, #0a0a0a,rgb(148, 185, 156) );
+   
+}
+.cls_h2{
+    font-size: 30px;
+    color: rgb(151, 151, 39);
+    font-style:oblique;
+    font-weight: 800;
+    
+}
+
+.btn_Cal{
+    border: 5px solid rgb(84, 82, 82);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+    
+}
+
+.input_txt{
+    width: 400px;
+    height: 40px;
+    /* border: 2px dotted black; */
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 30px;
+    margin: 25px;
+    font-size: 40px;
+    text-align: right;
+    color:rgb(235, 241, 246);
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+.input_txt::placeholder{
+    color:rgb(235, 241, 246);
+}
+
+
+.btn{
+   border: none;
+    height: 40px;
+    width: 75px;
+    margin: 7px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor:pointer;
+    background: linear-gradient(150deg, #0a0a0a,#94b99c );
+    box-shadow: -2px -2px 15px rgba(132, 151, 188, 0.5);
+
+    
+}
+
+ .operator{
+    color: rgba(192, 208, 16, 0.958);
+    font-weight: 600;
+}
+
+.equalTo{
+    
+    background: linear-gradient(150deg, #0a0a0a,#7baa84 );
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 25px;
+}
+.footer{
+    margin-top: 20px;
+    font-weight: 800;
+    color: rgba(192, 208, 16, 0.958);
+
+}
